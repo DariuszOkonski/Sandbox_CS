@@ -4,12 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi, there");
-
-
-
-            Console.WriteLine("Hello, World!");
-
+            Console.WriteLine("Welcome");
+            Console.WriteLine("to");
+            Console.WriteLine("C# Programming");
         }
     }
 }
