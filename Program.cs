@@ -1,13 +1,12 @@
-﻿using Sandbox.Classes;
+﻿using ClassLibrary;
 
 namespace Sandbox
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Customer c1 = new Customer();
-            Customer c2 = new Customer();
+            Product product = new Product();
 
 
 
