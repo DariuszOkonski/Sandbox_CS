@@ -38,6 +38,7 @@ namespace Sandbox
             Console.WriteLine("Product Quantity: " + product1.quantityInStock);
             Console.WriteLine("Total Quantity: " + totlaQuantity);
             Console.WriteLine("Total num of products: " + Product.TotalNoProducts);
+            Console.WriteLine("Category of products: " + Product.CategoryName);
         }
     }
 }
