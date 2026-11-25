@@ -25,8 +25,10 @@ namespace Sandbox
             product3.cost = 36000;
             product3.quantityInStock = 800;
 
-
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Product ID: " + product1.productID);
+            Console.WriteLine("Product Name: " + product1.productName);
+            Console.WriteLine("Product Cost: " + product1.cost);
+            Console.WriteLine("Product Quantity: " + product1.quantityInStock);
         }
     }
 }
