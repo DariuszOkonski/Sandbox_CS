@@ -6,11 +6,24 @@ namespace Sandbox
     {
         static void Main(string[] args)
         {
-            Product product = new Product();
+            Product product1 = new Product();
+            Product product2 = new Product();
+            Product product3 = new Product();
 
+            product1.productID = 1001;
+            product1.productName = "Mobile";
+            product1.cost = 2000;
+            product1.quantityInStock = 1200;
 
+            product2.productID = 1002;
+            product2.productName = "Laptop";
+            product2.cost = 4500;
+            product2.quantityInStock = 3400;
 
-
+            product3.productID = 1003;
+            product3.productName = "Speakers";
+            product3.cost = 36000;
+            product3.quantityInStock = 800;
 
 
             Console.WriteLine("Hello, World!");
