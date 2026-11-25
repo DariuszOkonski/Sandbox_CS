@@ -7,8 +7,13 @@ namespace Sandbox
         static void Main(string[] args)
         {
             Product product1 = new Product();
+            Product.TotalNoProducts++;
+
             Product product2 = new Product();
+            Product.TotalNoProducts++;
+
             Product product3 = new Product();
+            Product.TotalNoProducts++;
 
             product1.productID = 1001;
             product1.productName = "Mobile";
@@ -32,6 +37,7 @@ namespace Sandbox
             Console.WriteLine("Product Cost: " + product1.cost);
             Console.WriteLine("Product Quantity: " + product1.quantityInStock);
             Console.WriteLine("Total Quantity: " + totlaQuantity);
+            Console.WriteLine("Total num of products: " + Product.TotalNoProducts);
         }
     }
 }
