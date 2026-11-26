@@ -36,6 +36,9 @@ namespace Sandbox
             Console.WriteLine("Product Name: " + product1.productName);
             Console.WriteLine("Product Cost: " + product1.cost);
             Console.WriteLine("Product Quantity: " + product1.quantityInStock);
+            Console.WriteLine("Product date purchase: " + product1.dateOfPurchase);
+
+            Console.WriteLine("");
             Console.WriteLine("Total Quantity: " + totlaQuantity);
             Console.WriteLine("Total num of products: " + Product.TotalNoProducts);
             Console.WriteLine("Category of products: " + Product.CategoryName);
