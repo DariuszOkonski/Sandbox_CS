@@ -6,6 +6,8 @@ namespace Sandbox
     {
         static void Main(string[] args)
         {
+            const string developerName = "John";
+
             Product product1 = new Product();
             Product.TotalNoProducts++;
 
@@ -32,11 +34,16 @@ namespace Sandbox
 
             int totlaQuantity = product1.quantityInStock + product2.quantityInStock + product3.quantityInStock;
 
+            product1.CalculateTax();
+            product2.CalculateTax();
+            product3.CalculateTax();
+
             Console.WriteLine("Product ID: " + product1.productID);
             Console.WriteLine("Product Name: " + product1.productName);
             Console.WriteLine("Product Cost: " + product1.cost);
             Console.WriteLine("Product Quantity: " + product1.quantityInStock);
             Console.WriteLine("Product date purchase: " + product1.dateOfPurchase);
+            Console.WriteLine("Product tax: " + product1.tax);
 
             Console.WriteLine("");
             Console.WriteLine("Total Quantity: " + totlaQuantity);
